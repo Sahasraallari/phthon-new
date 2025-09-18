@@ -1,0 +1,10 @@
+def well_wishes():
+    print("Hello!")
+    print("How are you")
+    print("I am good , how are you")
+    print("I am good, nice to see you again")
+    print("How is your day")
+    print("It was good")
+    print("Bye")
+    print("Yeah bye")
+well_wishes()
