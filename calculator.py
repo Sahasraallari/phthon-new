@@ -4,10 +4,10 @@ def add (P , Q):
 def subtract (P , Q):
     return P - Q
 
-def multipy (P , Q):
+def multiply (P , Q):
     return P * Q
 
-def dvide (P , Q):
+def divide (P , Q):
     return P / Q
 
 
@@ -17,8 +17,8 @@ print("b.SUB")
 print("c.MUL")
 print("d.DIV")
 choice = input("Please enter your choice(a/b/c/d)")
-num1= int(input("Please enter the first number"))
-num2= int(input("Please enter the second number"))
+num_1= int(input("Please enter the first number"))
+num_2= int(input("Please enter the second number"))
 
 if choice == 'a':
     print(num_1, "+" , num_2, "=" , add(num_1,num_2))
@@ -30,7 +30,9 @@ elif choice == 'c':
 
 elif choice == 'd':
     print(num_1, "/" , num_2, "=" , divide(num_1,num_2))
-elif 
+
+else:
+    print("Wrong input")
 
 
 
