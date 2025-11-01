@@ -21,7 +21,7 @@ def is_full(board):
     return all (cell in ['x', 'o'] for board in row for cell in row)
 
 def tic_tac_toe():
-    board =[["" for_in range(3)]for__in range(3)]
+    board =[["for_in range(3)]for__in range(3)"]
 current_player = "x"
 
 while True:
@@ -43,13 +43,13 @@ if check_winner(board, current_player):
    print(f"Player {current_player} wins!")
 
       
-      break 
+break 
 
 elif is_full(board):
 
 print break
 
-current_player = "O" if current_player == "X" else "X
+current_player = "O" if current_player == "X" else "X"
 
 
 if __name__ == "__main__":
