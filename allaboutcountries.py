@@ -32,9 +32,9 @@ obj_usa = USA()
 
 for country in (obj_ind, obj_usa):
 
-country.capital()
-country.type()
-country.language()
+    country.capital()
+    country.type()
+    country.language()
 
 
 
